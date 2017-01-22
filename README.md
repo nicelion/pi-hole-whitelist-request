@@ -13,5 +13,10 @@ Add the line whereever you'd like, just before the closing html tag. See ```exam
 
 Then, once you save, when a user attempts to access a blocked website, the block page will look like this:
 
+![](https://github.com/nicelion/pi-hole-whitelist-request/blob/master/blocked.png?raw=true)
+
+And when the user "clicks there," this email is drafted:
+
+![](https://github.com/nicelion/pi-hole-whitelist-request/blob/master/mail.png?raw=true)
 
 I should mention, I don't know if this will break your pi-hole install. I don't think it will, but who knows. I am not a professional, and know absolutly nothing about PHP. So please use at your discretion. 
