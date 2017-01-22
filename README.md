@@ -7,6 +7,11 @@ By simply adding one line, found in index.php and right below, the users on your
 
 ```
 
-You'll need to edit ```index.php``` by running ```bash vim /var/www/html/pihole/index.php```.
+You'll need to edit ```index.php``` by running ``` vim /var/www/html/pihole/index.php```.
 
 Add the line whereever you'd like, just before the closing html tag. See ```example.php``` for my placement and how I added it in. 
+
+Then, once you save, when a user attempts to access a blocked website, the block page will look like this:
+
+
+I should mention, I don't know if this will break your pi-hole install. I don't think it will, but who knows. I am not a professional, and know absolutly nothing about PHP. So please use at your discretion. 
